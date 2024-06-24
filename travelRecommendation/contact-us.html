@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="img/plane-icon.png" alt="Logo" />
+        <span>Phuc Travel</span>
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Enter a destination or keyword" />
+        <button>Search</button>
+        <button>Clear</button>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>CONTACT US</h1>
+        <form action="your-server-endpoint" method="POST">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button id="submit-btn" type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </body>
+</html>
